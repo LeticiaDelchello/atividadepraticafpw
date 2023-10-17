@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contato</h1>
+    </header>
+
+    <!--Barra de Navegação da página, contendo todas as opções anteriores e com a opção de página inicial-->
+    <nav>
+        <ul class="container">
+            <li><a href="index.html" class="box">Página Inicial</a></li>
+            <li><a href="sobre.html" class="box">Sobre Mim</a></li>
+            <li><a href="formacao.html" class="box">Formações</a></li>
+            <li><a href="portfolio.html" class="box">Portfólio</a>
+                <ul class="submenu3">
+                    <li class="submenu"><a href="pagina.html" class="box1">Exemplo 1</a></li>
+                    <li class="submenu"><a href="pedidopizza.html" class="box1">Exemplo 2</a></li>
+                    <li class="submenu"><a href="mario.html" class="box1">Exemplo 3</a></li>
+                    <li class="submenu"><a href="eletricista.html" class="box1">Exemplo 4</a></li>
+                    <li class="submenu"><a href="jogo.html" class="box1">Exemplo 5</a></li>
+                </ul></li>
+        </ul>
+    </nav>
+
+    <!--Divisão feita para conseguir dimensionar cada parte do "corpo" da página-->
+    <div class="row">       
+        <div class="col-2">
+            <p class="ptamanho">Preencha o formulário que entrarei em contato assim que possível!</p>
+            <br><br>
+
+            <!--Formulário que será preenchido por quem quiser entrar em contato-->
+            <form action="" method="">
+                <table>
+                    <tr>
+                        <th><label for="nome">Nome:</label></th>
+                        <td><input type="text" name="nome" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">E-mail:</label></th>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="cursando">Qual seu telefone?</label></th>
+                        <td><input type="radio" name="radio" id="radio">Fixo
+                            <input type="radio" name="radio" id="radio">Celular
+                            <input type="radio" name="radio" id="radio">Whatsapp</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="tel" name="telefone" id="telefone"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="tipo">Qual seu telefone?</label></th>
+                        <td><input type="radio" name="radio1" id="radio1">Fixo
+                            <input type="radio" name="radio1" id="radio1">Celular
+                            <input type="radio" name="radio1" id="radio1">Whatsapp</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="tel" name="telefone" id="telefone"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="cursar">Motivo do contato</label></th>
+                        <td><input type="checkbox" name="checkbox" id="checkbox">Gostei do currículo
+                            <input type="checkbox" name="checkbox" id="checkbox">Tirar uma dúvida
+                            <input type="checkbox" name="checkbox" id="checkbox">Outro</td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg">Digite sua Mensagem:</label></th>
+                        <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <!--Um aside vazio para fazer com que o formulário fique no meio da página-->
+        <div class="col-3">
+            <div class="aside1">
+                <p><br><br><br><br></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Rodapé da página-->
+    <footer class="footer">
+        <p class="fundotexto">Fim da Página</p>
+    </footer>
+
+</body>
+</html>

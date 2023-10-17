@@ -1,0 +1,15 @@
+.paragrafo{
+    color: rgb(6, 199, 6);
+}
+
+.para1{ 
+    color: red;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.para2{
+    color:blue;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}

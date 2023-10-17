@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Letícia Cavalari Delchello</h1>
+    </header>
+
+    <nav>
+        <ul class="container">
+            <li><a href="index.html" class="box">Página Inicial</a></li>
+            <li><a href="sobre.html" class="box">Sobre Mim</a></li>
+            <li><a href="formacao.html" class="box">Formações</a></li>
+            <li><a href="portfolio.html" class="box">Portfólio</a></li>
+            <li><a href="contato.html" class="box">Entre em Contato</a></li>
+        </ul>
+    </nav>
+
+    <h2>Pedido Pizza</h2>
+    <form method="post" action="teste.jsp">
+        Nome: <input type="text" name="nome"> <br>
+        Email: <input type="email" name="email"> <br>
+        Tamanho: 
+        <input type="radio" name="tamanho" value="g"> Grande
+        <input type="radio" name="tamanho" value="m"> Medio
+        <input type="radio" name="tamanho" value="p"> Pequeno 
+        <br>
+        Sabor: <select name="sabor">
+            <option>Calabresa</option>
+            <option>Marguerita</option>
+            <option>Napolitana</option>
+        </select>
+        <br>
+        Adicionais:
+        <input type="checkbox" name="borda" value="sim"> Borda
+        <input type="checkbox" name="queijo" value="sim"> Queijo Extra
+        <br>
+        Data Entrega: <input type="date" name="dataEntrega">
+        <br><br>
+        Comentário: <br><textarea name="mensagem" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+
+
+
+
+
+</body>
+</html>
